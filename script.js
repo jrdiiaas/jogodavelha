@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (winner) {
             gameActive = false;
             if (winner === "T") {
-                updateStatusMessage("It's a tie!");
+                updateStatusMessage("Ninguém venceu. Vamos para a próxima partida!");
             } else {
                 updateStatusMessage(`${winner} Parabéns! Você venceu essa! Confira o placar.`);
             }
